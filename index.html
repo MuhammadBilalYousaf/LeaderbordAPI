@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score LeadBoard</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>Score LeadBoard</h1>
+
+  <form id="postDataForm">
+    <label for="userName">Name:</label>
+    <input type="text" id="userName" name="userName" required>
+
+    <label for="userScore">Score:</label>
+    <input type="number" id="userScore" name="userScore" required>
+
+    <button type="button" id="addbtn" onclick="postData() ">Add Record</button>
+  </form>
+
+  <button id="getbtn" onclick="getData()">Get Data</button>
+
+  <table id="scoresTable" class="score-table">
+    <thead>
+      <tr>
+        <th class="name-column">Name</th>
+        <th class="score-column">Score</th>
+      </tr>
+    </thead>
+    <tbody id="scoresBody"></tbody>
+  </table>
+
+  <script src="./index.js"></script>
+
+</body>
+</html>
+

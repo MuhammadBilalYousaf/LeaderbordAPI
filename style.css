@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+thead {
+    background-color: #99cece;
+}
+   
+.score-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+  .score-table th, .score-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .name-column, .score-column {
+    font-weight: bold;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  label,input {
+    display: block;
+    width: 150px;
+    float: left;
+    margin-bottom: 10px;
+   }
+   
+   label {
+    text-align: right;
+    width: 75px;
+    padding-right: 20px;
+   }
+   
+  #getbtn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #99cece;
+    font-size: 20px;
+  }
+
+  #addbtn {
+    margin-left: 30px;
+  }
